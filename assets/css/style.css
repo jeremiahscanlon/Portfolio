@@ -29,15 +29,20 @@ body{
 	display: inline-block;
 	text-align: right;
 	width: 597px;
+	vertical-align: middle;
 }
 
 #navigation ul li {
 	display: inline-block;
 }
 
-#navigation ul li a {
+#navigation ul li a, a:visited, a:visited, a:active {
 	text-decoration: none;
 	color: #777777;
+}
+#navigation ul li a:hover {
+	color: #4aaaa5;
+	font-size: 18px;
 }
 
 #pageBody{
@@ -158,8 +163,24 @@ input[type=submit] {
     border: none;
 }
 
+input[type=submit]:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border: 1px solid #4aaaa5;
+    padding: 14px 24px
+}
+
 textarea[type="text"] {
     padding: 75px 5px;
     width: 98%;
     margin-top: 10px;
 }
+
+.rotate:hover  {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
