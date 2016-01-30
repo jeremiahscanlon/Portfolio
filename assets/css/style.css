@@ -99,13 +99,13 @@ body{
 	background: #666666;
 	margin-top: 30px;
 	border-top: 3px solid #4aaaa5;
-	padding: 20px;
 }
 
 #footer p{
 	text-align: center;
 	color: #cccccc;
 	font-size: 12px;
+	margin-top: 42px;
 }
 
 h1{
@@ -184,3 +184,13 @@ textarea[type="text"] {
   transform: rotate(-10deg);
 }
 
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
+}
+#footer, .push {
+	height: 100px; /* '.push' must be the same height as 'footer' */
+}
