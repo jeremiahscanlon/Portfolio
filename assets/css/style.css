@@ -194,3 +194,13 @@ html, body {
 #footer, .push {
 	height: 100px; /* '.push' must be the same height as 'footer' */
 }
+
+.imagedropshadow { 
+}
+
+a:hover img.imagedropshadow {
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+	box-shadow: 1px 1px 5px #999;
+}
+
