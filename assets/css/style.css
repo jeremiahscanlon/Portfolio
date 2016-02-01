@@ -68,7 +68,7 @@ body{
     color: #ffffff;
     width: 285px;
     padding: 5px;
-    display: inline-block;
+    /*display: inline-block;*/
     position: absolute;
     margin-top: -70px;
 }
